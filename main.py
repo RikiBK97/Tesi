@@ -15,19 +15,21 @@ def differenzaImmagini(img1, img2, toll):
 
 
 if __name__ == '__main__':
-    thresLow = 30
-    thresHigh = 70
+    thresLow = 80
+    thresHigh = 150
+    toll = 30
+    path = 'Images/input' + str(2) + '/'
 
-    noColla = cv.imread('Images/input/NoColla.bmp', 0)
+    noColla = cv.imread(path + 'NoColla.bmp', 0)
     edges2 = cv.Canny(noColla, thresLow, thresHigh)
 
-    colla = cv.imread('Images/input/Colla1.bmp', 0)
+    colla = cv.imread(path + 'Colla3.bmp', 0)
     edges = cv.Canny(colla, thresLow, thresHigh)
-    plt.subplot(131), plt.imshow(edges, cmap='gray')
+    plt.subplot(131), plt.imshow(colla, cmap='gray')
     plt.title('Colla'), plt.xticks([]), plt.yticks([])
-    plt.subplot(132), plt.imshow(edges2, cmap='gray')
+    plt.subplot(132), plt.imshow(noColla, cmap='gray')
     plt.title('NoColla'), plt.xticks([]), plt.yticks([])
-    diff = differenzaImmagini(edges2, edges, 30)
+    diff = differenzaImmagini(edges2, edges, toll)
     plt.subplot(133), plt.imshow(diff, cmap='gray')
     plt.title('Differenza'), plt.xticks([]), plt.yticks([])
 
