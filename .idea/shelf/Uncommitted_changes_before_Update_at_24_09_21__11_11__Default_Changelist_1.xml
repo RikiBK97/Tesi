@@ -1,0 +1,54 @@
+<changelist name="Uncommitted_changes_before_Update_at_24_09_21,_11_11_[Default_Changelist]1" date="1632474679434" recycled="true" deleted="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_09_21,_11_11_[Default_Changelist]1/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Update at 24/09/21, 11:11 [Default Changelist]" />
+  <binary>
+    <option name="BEFORE_PATH" value="Images/input/NoColla.bmp" />
+    <option name="AFTER_PATH" value="CannyDetection/Images/input/NoColla.bmp" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_09_21,_11_11_[Default_Changelist]1/NoColla.bmp" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Images/input/Colla6.bmp" />
+    <option name="AFTER_PATH" value="CannyDetection/Images/input/Colla6.bmp" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_09_21,_11_11_[Default_Changelist]1/Colla6.bmp" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Images/output/image_1_canny.jpg" />
+    <option name="AFTER_PATH" value="CannyDetection/Images/output/image_1_canny.jpg" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_09_21,_11_11_[Default_Changelist]1/image_1_canny.jpg" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Images/output/image_1_forests.jpg" />
+    <option name="AFTER_PATH" value="CannyDetection/Images/output/image_1_forests.jpg" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_09_21,_11_11_[Default_Changelist]1/image_1_forests.jpg" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="CannyDetection/Images/output/Out1.jpg" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_09_21,_11_11_[Default_Changelist]1/Out1.jpg" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Images/input/Colla3.bmp" />
+    <option name="AFTER_PATH" value="CannyDetection/Images/input/Colla3.bmp" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_09_21,_11_11_[Default_Changelist]1/Colla3.bmp" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Images/input/Colla5.bmp" />
+    <option name="AFTER_PATH" value="CannyDetection/Images/input/Colla5.bmp" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_09_21,_11_11_[Default_Changelist]1/Colla5.bmp" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Images/input/Colla2.bmp" />
+    <option name="AFTER_PATH" value="CannyDetection/Images/input/Colla2.bmp" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_09_21,_11_11_[Default_Changelist]1/Colla2.bmp" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Images/input/Colla1.bmp" />
+    <option name="AFTER_PATH" value="CannyDetection/Images/input/Colla1.bmp" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_09_21,_11_11_[Default_Changelist]1/Colla1.bmp" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Images/input/Colla4.bmp" />
+    <option name="AFTER_PATH" value="CannyDetection/Images/input/Colla4.bmp" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_09_21,_11_11_[Default_Changelist]1/Colla4.bmp" />
+  </binary>
+</changelist>

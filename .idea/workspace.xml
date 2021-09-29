@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a41e6861-e971-4a75-a714-1f27575c4bbb" name="Default Changelist" comment="Definizione contorni ed eliminazione bordo scatola">
+      <change afterPath="$PROJECT_DIR$/CannyDetection/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/input1/Colla7.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/input1/G_01_00 2.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/input1/G_02_00 2.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/input1/G_03_00 2.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/input2/Colla10.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/input5/G_01_01.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/input5/G_02_01.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/input5/G_03_01.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/input5/G_04_01.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/input5/G_05_01.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/input5/NoColla.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/input5/R_03_01.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/input5/R_04_01.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/output/Canny/input1_0.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/output/Canny/input1_1.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/output/Canny/input1_10.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/output/Canny/input1_11.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/output/Canny/input1_12.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/output/Canny/input1_13.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/output/Canny/input1_2.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/output/Canny/input1_3.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/output/Canny/input1_4.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/output/Canny/input1_5.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/output/Canny/input1_6.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/output/Canny/input1_7.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/output/Canny/input1_8.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/output/Canny/input1_9.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/output/Canny/input2_0.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/output/Canny/input2_1.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/output/Canny/input2_10.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/output/Canny/input2_2.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/output/Canny/input2_3.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/output/Canny/input2_4.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/output/Canny/input2_5.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/output/Canny/input2_6.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/output/Canny/input2_7.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/output/Canny/input2_8.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/output/Canny/input2_9.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/output/Canny/input3_0.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/output/Canny/input3_1.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/output/Canny/input3_2.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/output/Canny/input4_0.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/output/Canny/input4_1.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/output/Canny/input4_10.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/output/Canny/input4_11.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/output/Canny/input4_12.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/output/Canny/input4_2.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/output/Canny/input4_3.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/output/Canny/input4_4.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/output/Canny/input4_5.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/output/Canny/input4_6.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/output/Canny/input4_7.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/output/Canny/input4_8.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/output/Canny/input4_9.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/output/Canny/input5_0.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/output/Canny/input5_1.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/output/Canny/input5_2.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/output/Canny/input5_3.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/output/Canny/input5_4.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/output/Canny/input5_5.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/output/Canny/input5_6.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/output/Canny/input5_7.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ObjectSegmentation/Hough.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ObjectSegmentation/Images/input/binary.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ObjectSegmentation/Images/input1/Colla1.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ObjectSegmentation/Images/input1/Colla2.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ObjectSegmentation/Images/input1/Colla3.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ObjectSegmentation/Images/input1/Colla4.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ObjectSegmentation/Images/input1/Colla5.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ObjectSegmentation/Images/input1/Colla6.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ObjectSegmentation/Images/input1/Colla7.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ObjectSegmentation/Images/input1/G_01_00.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ObjectSegmentation/Images/input1/G_02_00.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ObjectSegmentation/Images/input1/G_03_00.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ObjectSegmentation/Images/input1/G_04_00.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ObjectSegmentation/Images/input1/G_05_00.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ObjectSegmentation/Images/input1/NoColla.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ObjectSegmentation/Images/input1/NoColla2.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ObjectSegmentation/Images/output/out.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Tesi.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/aws.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Images/input2/NoColla.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/Images/input2/NoColla.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Images/input2/NoColla2.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Images/output/image_1_canny.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Images/output/image_1_forests.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1xzxW0ekpN7LpAE0RN042FQSO1K" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ObjectSegmentation/Images" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ObjectSegmentation/Images" />
+      <recent name="$PROJECT_DIR$/Images/input1" />
+      <recent name="$PROJECT_DIR$/ObjectSegmentation/Images/input" />
+      <recent name="$PROJECT_DIR$/ObjectSegmentation" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Images/output/Canny" />
+      <recent name="$PROJECT_DIR$/CannyDetection" />
+      <recent name="$PROJECT_DIR$/ObjectSegmentation/Images/input" />
+      <recent name="$PROJECT_DIR$/ObjectSegmentation" />
+      <recent name="$PROJECT_DIR$/ObjectSegmentation/Mask_RCNN/samples" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.Canny">
+    <configuration name="Canny" type="PythonConfigurationType" factoryName="Python">
+      <module name="Tesi" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/local/bin/python3.8" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CannyDetection/edges.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Hough" type="PythonConfigurationType" factoryName="Python">
+      <module name="Tesi" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/local/bin/python3.8" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ObjectSegmentation" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ObjectSegmentation/Hough.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Try" type="PythonConfigurationType" factoryName="Python">
+      <module name="Tesi" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/local/bin/python3.8" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="Tesi" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/local/bin/python3.8" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="true" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.Canny" />
+      <item itemvalue="Python.Hough" />
+      <item itemvalue="Python.Try" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a41e6861-e971-4a75-a714-1f27575c4bbb" name="Default Changelist" comment="" />
+      <created>1631371745382</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1631371745382</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Definizione contorni ed eliminazione bordo scatola">
+      <created>1631473884391</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1631473884391</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Definizione contorni ed eliminazione bordo scatola" />
+    <option name="LAST_COMMIT_MESSAGE" value="Definizione contorni ed eliminazione bordo scatola" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="28" y="25" width="1071" height="1021" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1632902411864">
+      <screen x="0" y="25" width="1792" height="1021" />
+    </state>
+    <state x="28" y="25" width="1071" height="1021" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1792.1021@0.25.1792.1021" timestamp="1632902411864" />
+    <state x="360" y="196" width="1071" height="778" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1792.1024@0.25.1792.1024" timestamp="1631371905251" />
+    <state x="630" y="341" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1632817522970">
+      <screen x="0" y="25" width="1792" height="1021" />
+    </state>
+    <state x="630" y="341" key="#com.intellij.fileTypes.FileTypeChooser/0.25.1792.1021@0.25.1792.1021" timestamp="1632817522970" />
+    <state x="633" y="404" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1632480521306">
+      <screen x="0" y="25" width="1792" height="1021" />
+    </state>
+    <state x="633" y="404" key="#com.intellij.ide.util.TreeClassChooserDialog/0.25.1792.1021@0.25.1792.1021" timestamp="1632480521306" />
+    <state x="584" y="276" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1632301316567">
+      <screen x="0" y="25" width="1792" height="1021" />
+    </state>
+    <state x="584" y="276" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.25.1792.1021@0.25.1792.1021" timestamp="1632301316567" />
+    <state x="584" y="277" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.25.1792.1024@0.25.1792.1024" timestamp="1631473902916" />
+    <state x="634" y="286" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1632819032166">
+      <screen x="0" y="25" width="1792" height="1021" />
+    </state>
+    <state x="634" y="286" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.25.1792.1021@0.25.1792.1021" timestamp="1632819032166" />
+    <state x="752" y="307" key="EnvironmentVariablesDialog" timestamp="1631371812986">
+      <screen x="0" y="25" width="1792" height="1024" />
+    </state>
+    <state x="752" y="307" key="EnvironmentVariablesDialog/0.25.1792.1024@0.25.1792.1024" timestamp="1631371812986" />
+    <state width="1771" height="230" key="GridCell.Tab.0.bottom" timestamp="1632904569298">
+      <screen x="0" y="25" width="1792" height="1021" />
+    </state>
+    <state width="1771" height="230" key="GridCell.Tab.0.bottom/0.25.1792.1021@0.25.1792.1021" timestamp="1632904569298" />
+    <state width="885" height="277" key="GridCell.Tab.0.bottom/0.25.1792.1024@0.25.1792.1024" timestamp="1631800809563" />
+    <state width="1771" height="230" key="GridCell.Tab.0.center" timestamp="1632904569298">
+      <screen x="0" y="25" width="1792" height="1021" />
+    </state>
+    <state width="1771" height="230" key="GridCell.Tab.0.center/0.25.1792.1021@0.25.1792.1021" timestamp="1632904569298" />
+    <state width="885" height="277" key="GridCell.Tab.0.center/0.25.1792.1024@0.25.1792.1024" timestamp="1631800809563" />
+    <state width="1771" height="230" key="GridCell.Tab.0.left" timestamp="1632904569297">
+      <screen x="0" y="25" width="1792" height="1021" />
+    </state>
+    <state width="1771" height="230" key="GridCell.Tab.0.left/0.25.1792.1021@0.25.1792.1021" timestamp="1632904569297" />
+    <state width="885" height="277" key="GridCell.Tab.0.left/0.25.1792.1024@0.25.1792.1024" timestamp="1631800809562" />
+    <state width="1771" height="230" key="GridCell.Tab.0.right" timestamp="1632904569298">
+      <screen x="0" y="25" width="1792" height="1021" />
+    </state>
+    <state width="1771" height="230" key="GridCell.Tab.0.right/0.25.1792.1021@0.25.1792.1021" timestamp="1632904569298" />
+    <state width="885" height="277" key="GridCell.Tab.0.right/0.25.1792.1024@0.25.1792.1024" timestamp="1631800809563" />
+    <state width="1771" height="341" key="GridCell.Tab.1.bottom" timestamp="1632819912101">
+      <screen x="0" y="25" width="1792" height="1021" />
+    </state>
+    <state width="1771" height="341" key="GridCell.Tab.1.bottom/0.25.1792.1021@0.25.1792.1021" timestamp="1632819912101" />
+    <state width="1771" height="341" key="GridCell.Tab.1.center" timestamp="1632819912100">
+      <screen x="0" y="25" width="1792" height="1021" />
+    </state>
+    <state width="1771" height="341" key="GridCell.Tab.1.center/0.25.1792.1021@0.25.1792.1021" timestamp="1632819912100" />
+    <state width="1771" height="341" key="GridCell.Tab.1.left" timestamp="1632819912100">
+      <screen x="0" y="25" width="1792" height="1021" />
+    </state>
+    <state width="1771" height="341" key="GridCell.Tab.1.left/0.25.1792.1021@0.25.1792.1021" timestamp="1632819912100" />
+    <state width="1771" height="341" key="GridCell.Tab.1.right" timestamp="1632819912101">
+      <screen x="0" y="25" width="1792" height="1021" />
+    </state>
+    <state width="1771" height="341" key="GridCell.Tab.1.right/0.25.1792.1021@0.25.1792.1021" timestamp="1632819912101" />
+    <state x="0" y="113" key="MergeDialog" timestamp="1632474677501">
+      <screen x="0" y="25" width="1792" height="1021" />
+    </state>
+    <state x="0" y="113" key="MergeDialog/0.25.1792.1021@0.25.1792.1021" timestamp="1632474677501" />
+    <state x="405" y="173" key="SettingsEditor" timestamp="1632469185467">
+      <screen x="0" y="25" width="1792" height="1021" />
+    </state>
+    <state x="405" y="173" key="SettingsEditor/0.25.1792.1021@0.25.1792.1021" timestamp="1632469185467" />
+    <state x="405" y="173" key="SettingsEditor/0.25.1792.1024@0.25.1792.1024" timestamp="1631371758734" />
+    <state x="496" y="274" key="Vcs.Push.Dialog.v2" timestamp="1631473894622">
+      <screen x="0" y="25" width="1792" height="1024" />
+    </state>
+    <state x="496" y="274" key="Vcs.Push.Dialog.v2/0.25.1792.1024@0.25.1792.1024" timestamp="1631473894622" />
+    <state x="697" y="454" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1632474666204">
+      <screen x="0" y="25" width="1792" height="1021" />
+    </state>
+    <state x="697" y="454" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.25.1792.1021@0.25.1792.1021" timestamp="1632474666204" />
+    <state x="697" y="455" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.25.1792.1024@0.25.1792.1024" timestamp="1631473888514" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

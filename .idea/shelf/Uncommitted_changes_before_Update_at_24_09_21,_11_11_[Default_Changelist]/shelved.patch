@@ -1,0 +1,29 @@
+Index: main.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import numpy as np\nimport cv2 as cv\nfrom matplotlib import pyplot as plt\n\n\ndef differenzaImmagini(img1, img2, toll):\n    for i in range(toll, img1.shape[0] - toll):\n        for j in range(toll, img1.shape[1] - toll):\n            if img1[i, j] > 0:\n                for l in range(0, toll):\n                    for m in range(0, toll):\n                        img2[i-l, j-m] = 0\n                        img2[i+l, j+m] = 0\n    return img2\n\n\nif __name__ == '__main__':\n    thresLow = 30\n    thresHigh = 70\n\n    noColla = cv.imread('Images/input/NoColla.bmp', 0)\n    edges2 = cv.Canny(noColla, thresLow, thresHigh)\n\n    colla = cv.imread('Images/input/Colla1.bmp', 0)\n    edges = cv.Canny(colla, thresLow, thresHigh)\n    plt.subplot(131), plt.imshow(edges, cmap='gray')\n    plt.title('Colla'), plt.xticks([]), plt.yticks([])\n    plt.subplot(132), plt.imshow(edges2, cmap='gray')\n    plt.title('NoColla'), plt.xticks([]), plt.yticks([])\n    diff = differenzaImmagini(edges2, edges, 30)\n    plt.subplot(133), plt.imshow(diff, cmap='gray')\n    plt.title('Differenza'), plt.xticks([]), plt.yticks([])\n\n    plt.show()\n\n\n\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- main.py	(revision 32d62bb4d27462795b79bf2a8c2c2ce88d575c0d)
++++ CannyDetection/main.py	(date 1632472497804)
+@@ -21,7 +21,7 @@
+     noColla = cv.imread('Images/input/NoColla.bmp', 0)
+     edges2 = cv.Canny(noColla, thresLow, thresHigh)
+ 
+-    colla = cv.imread('Images/input/Colla1.bmp', 0)
++    colla = cv.imread('Images/input/Colla6.bmp', 0)
+     edges = cv.Canny(colla, thresLow, thresHigh)
+     plt.subplot(131), plt.imshow(edges, cmap='gray')
+     plt.title('Colla'), plt.xticks([]), plt.yticks([])
+@@ -31,6 +31,10 @@
+     plt.subplot(133), plt.imshow(diff, cmap='gray')
+     plt.title('Differenza'), plt.xticks([]), plt.yticks([])
+ 
++    # Filename
++    filename = 'Images/output/Out1.jpg'
++    cv.imwrite(filename, diff)
++
+     plt.show()
+ 
+ 
